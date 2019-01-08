@@ -54,7 +54,7 @@ namespace Stos_Csharp
                 {
                     tb.Text = "0";
                 }
-                tb.Left = 15;
+                tb.Left = 30;
                 tb.Top = 0;
                 for (int wys = 15; wys <= tablicaY[st.Count]; wys++)
                 {
@@ -84,7 +84,7 @@ namespace Stos_Csharp
             {
                 TextBox wyciagnieta = st.Pop();
                 
-                for(int lewo = 15; lewo <= 220; lewo++)
+                for(int lewo = 30; lewo <= 220; lewo++)
                 {
                     wyciagnieta.Left +=1;
                     Thread.Sleep(2);
@@ -107,7 +107,7 @@ namespace Stos_Csharp
                 {
 
                     TextBox wyciagnieta = st.Pop();
-                    for (int lewo = 15; lewo <= 220; lewo++)
+                    for (int lewo = 30; lewo <= 220; lewo++)
                     {
                         wyciagnieta.Left += 1;
                         Thread.Sleep(2);
